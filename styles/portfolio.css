@@ -1,0 +1,10 @@
+body {
+  background-color: aqua;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
