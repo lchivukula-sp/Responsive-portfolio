@@ -45,11 +45,17 @@ p {
   font-size: 24px;
 }
 
+.main-heading h1 {
+  text-align: center;
+  font-size: 64px;
+  padding-top: 80px;
+}
+
 .content-container {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -95,13 +101,28 @@ p {
   font-weight: bold;
 }
 
+.workcontent-container {
+  padding: 20px 20px;
+}
+
+.my-project {
+  height: 400px;
+  object-fit: fill;
+  object-position: 50% 50%;
+}
+
+.text-grid {
+  padding: 80px 60px 60px 60px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
   }
 
-  .about-h1 {
+  .content-container h1 {
     font-size: 32px;
+    line-height: 50px;
   }
 
   .hero p {
@@ -119,14 +140,30 @@ p {
 
   .content-container {
     text-align: center;
-  }
-
-  .content-container {
     padding: 8px;
   }
 
   .about-container {
     width: auto;
     padding-left: 10px;
+  }
+
+  .content {
+    margin-top: 80px;
+  }
+
+  .text-grid {
+    padding: 0;
+    text-align: center;
+  }
+
+  .main-heading h1 {
+    font-size: 44px;
+    padding: 120px 10px 10px 0;
+    margin-bottom: 0;
+  }
+  /* top | right | bottom | left */
+  .workcontent-container {
+    padding: 0;
   }
 }
