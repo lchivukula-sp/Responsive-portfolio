@@ -48,11 +48,11 @@ p {
 .main-heading h1 {
   text-align: center;
   font-size: 64px;
-  padding-top: 80px;
+  padding-top: 130px;
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .content h1 {
@@ -120,7 +120,7 @@ h4 {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 nav ul {
@@ -170,11 +170,12 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
-
+/* top | right | bottom | left */
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 80px;
   border-radius: 10px;
+  margin: 180px 40px 48px 40px;
 }
 
 footer .contact-box p {
@@ -244,6 +245,11 @@ footer .social-links a:hover {
 
   nav li {
     margin-left: 10px;
-    padding: 0 10px;
+    padding: 0 5px;
+    font-size: 14px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }
