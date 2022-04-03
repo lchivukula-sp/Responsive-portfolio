@@ -65,6 +65,10 @@ p {
   font-family: var(--default-font-family);
 }
 
+h4 {
+  font-size: 40px;
+}
+
 .content {
   margin: 30px;
 }
@@ -143,9 +147,52 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #86b3d1;
+  color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 28px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .social-links a:hover {
+  color: black;
+  background-color: #86b3d1;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .content-container h1 {
